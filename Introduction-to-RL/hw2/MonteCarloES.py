@@ -62,7 +62,9 @@ class MonteCarloES:
             card = random.choice(card_list)
             return card
 
-        def _add_sa_pair(state_action_pair, existed_pair, player, possible_hit):
+        def _add_sa_pair(
+            state_action_pair, existed_pair, player, possible_hit
+        ):
             player_state = player.get_state()
             if player_state not in existed_pair:
                 state_action_pair.append((player_state, possible_hit))
