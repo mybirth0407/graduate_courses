@@ -1,2 +1,2 @@
 # graduate_courses
-At Seoul National University
+Courses at Seoul National University
