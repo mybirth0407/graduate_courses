@@ -1,2 +1,2 @@
 # graduate_courses
-My assignments during Seoul National Univ.
+At Seoul National University
